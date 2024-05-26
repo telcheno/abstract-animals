@@ -1,7 +1,9 @@
 package javaAbstractAnimals;
 
+import javaRegnoAnimaleInterface.INuotanle;
+
 //estendo la classe astratta per implementare metodi e atributi
-public class Delfino extends Animale{
+public class Delfino extends Animale implements INuotanle{
 
 	//metodi implementati della super classe	
 	@Override
@@ -49,7 +51,6 @@ public class Delfino extends Animale{
 
 	@Override
 	public void vola() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("No, sono un mamifero marino! \n");
 	}
 }

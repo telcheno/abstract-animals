@@ -1,6 +1,8 @@
 package javaAbstractAnimals;
 
-public class Cane extends Animale {
+import javaRegnoAnimaleInterface.INuotanle;
+
+public class Cane extends Animale implements INuotanle{
 //-+-+-+-metodi implementati della super classe-+-+-+-\\
 	@Override
 	public void setNome(String nome) {
@@ -41,13 +43,14 @@ public class Cane extends Animale {
 	@Override
 	public void nuota() {
 		System.out.println("Sto nuotando \n");
+		
 	}
 
 	@Override
 	public void vola() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("No, sono un animale terrestre! \n");
 	}
+
 
 	
 }

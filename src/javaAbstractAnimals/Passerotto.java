@@ -1,7 +1,9 @@
 package javaAbstractAnimals;
 
+import javaRegnoAnimaleInterface.IVolare;
+
 //estendo la classe astratta per implementare metodi e atributi
-public class Passerotto extends Animale {
+public class Passerotto extends Animale implements IVolare{
 
 	//metodi implementati della super classe
 	@Override
@@ -44,8 +46,7 @@ public class Passerotto extends Animale {
 
 	@Override
 	public void nuota() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("No, sono un ucello selvatico! \n");
 	}
 
 	@Override
