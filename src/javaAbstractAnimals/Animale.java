@@ -40,8 +40,11 @@
 
 package javaAbstractAnimals;
 
+import javaRegnoAnimaleInterface.INuotanle;
+import javaRegnoAnimaleInterface.IVolare;
+
 //classe astratta generica
-public abstract class Animale {
+public abstract class Animale implements INuotanle, IVolare{
 	
 //atributi della classe abstratta
 	protected String nome;

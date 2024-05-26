@@ -41,4 +41,15 @@ public class Delfino extends Animale{
 	public void film() {
 		System.out.println("Il delfino più famoso era Flipper");
 	}
+
+	@Override
+	public void nuota() {
+		System.out.println("Sto nuotando \n");
+	}
+
+	@Override
+	public void vola() {
+		// TODO Auto-generated method stub
+		
+	}
 }

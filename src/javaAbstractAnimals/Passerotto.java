@@ -42,4 +42,15 @@ public class Passerotto extends Animale {
 		System.out.println("Canto \"Passerotto non andare via\" 🐦‍⬛ \n");
 	}
 
+	@Override
+	public void nuota() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void vola() {
+		System.out.println("Sto volando \n");
+	}
+
 }

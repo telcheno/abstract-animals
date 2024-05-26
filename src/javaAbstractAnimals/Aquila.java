@@ -3,7 +3,7 @@ package javaAbstractAnimals;
 //estendo la classe astratta per implementare metodi e atributi
 public class Aquila extends Animale {
 
-//metodi implementati della super classe	
+	//metodi implementati della super classe	
 	@Override
 	public void faiVerso() {
 		System.out.println("Il mio verso è lo STRIDO ");
@@ -38,5 +38,16 @@ public class Aquila extends Animale {
 //	metodo specifico della classe
 	public void vista() {
 		System.out.println("Ho una vista molto svilupata \n");
+	}
+
+	@Override
+	public void nuota() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void vola() {
+		System.out.println("Sto volando \n");
 	}
 }

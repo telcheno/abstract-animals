@@ -1,6 +1,6 @@
 package javaAbstractAnimals;
 
-public class Cane extends Animale{
+public class Cane extends Animale {
 //-+-+-+-metodi implementati della super classe-+-+-+-\\
 	@Override
 	public void setNome(String nome) {
@@ -37,4 +37,17 @@ public class Cane extends Animale{
 	public void saluto() {
 		System.out.println("Saluto scodinsolando 🐕‍🦺🐕‍🦺 \n");
 	}
+
+	@Override
+	public void nuota() {
+		System.out.println("Sto nuotando \n");
+	}
+
+	@Override
+	public void vola() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
 }
