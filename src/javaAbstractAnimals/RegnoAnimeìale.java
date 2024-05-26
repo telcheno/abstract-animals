@@ -61,7 +61,7 @@ System.out.println("\"Metodo inplementato dall' interface\"");
 		passerotto.mangia();
 		passerotto.dormi();
 
-//metodo sepecifico della classe
+//metodo implementato dal interface	
 		passerotto.vola();
 		
 //metodo sepecifico della classe		
@@ -75,7 +75,7 @@ System.out.println("\"Metodo inplementato dall' interface\"");
 		delfino.mangia();
 		delfino.dormi();
 		
-//metodo sepecifico della classe
+//metodo implementato dal interface	
 		delfino.nuota();
 		
 //metodo sepecifico della classe
